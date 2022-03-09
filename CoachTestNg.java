@@ -23,8 +23,7 @@ public class CoachTestNg {
     	
     	driver.get("https://www.coach--outlet.com/");
     	driver.findElement(By.xpath("//*[@id=\"navigation\"]/ul[2]/li/a[1]")).click();
-    	driver.findElement(By.id("login-email-address")).sendKeys("rashvin2714@gmail.com");
-    	driver.findElement(By.id("login-password")).sendKeys("Schaumburg10");
+    	
     	driver.findElement(By.xpath("//*[@id=\"loginForm\"]/div[1]/button")).submit();
     	//driver.close();
     	
